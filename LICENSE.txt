@@ -1,0 +1,109 @@
+================================================================================
+END USER LICENSE AGREEMENT (EULA)
+for "AGm — Avarwand Git Manager"
+================================================================================
+
+This software, named  AGm  (Avarwand Git Manager), is a freeware product
+developed and distributed by  Avarwand.
+
+By installing, copying, or otherwise using this software, you agree to be
+bound by the terms of this agreement.
+
+
+1. LICENSE GRANT
+--------------------------------------------------------------------------------
+You are granted a non-exclusive, non-transferable, worldwide license to
+install and use this software on your devices, free of charge for personal
+and commercial use.
+
+
+2. RESTRICTIONS
+--------------------------------------------------------------------------------
+- You may not reverse engineer, decompile, disassemble, or attempt to derive
+  the source code of this software in whole or in part.
+
+- You may not modify, adapt, translate, or create derivative works based on
+  this software.
+
+- You may not redistribute, sublicense, lease, rent, or resell this software
+  or any part of it without explicit written permission from Avarwand.
+
+- You may not claim ownership or authorship of this software, or falsely
+  represent it as your own work.
+
+- You may not use this software for any unlawful, malicious, or harmful
+  purpose, including but not limited to unauthorized access to computer
+  systems, networks, or repositories.
+
+- You may not remove or alter any copyright, trademark, or other proprietary
+  notices contained in the software.
+
+
+3. OWNERSHIP
+--------------------------------------------------------------------------------
+All rights, title, and interest — including all intellectual property rights
+in and to the software, its design, code, assets, and documentation — are and
+shall remain the exclusive property of Avarwand.
+
+This license does not transfer any ownership rights to you.
+
+
+4. CREDENTIAL STORAGE & SECURITY
+--------------------------------------------------------------------------------
+AGm provides an optional feature that saves SSH passphrases and HTTPS
+credentials (username and token/password) to a local configuration file
+located at  ~/.agm/agmconf  using Base64 encoding.
+
+Base64 encoding is  NOT  encryption. It is the user's sole responsibility
+to protect the configuration file and any stored credentials. Avarwand
+accepts no liability for unauthorized access to credentials stored in the
+AGm configuration file.
+
+
+5. GIT DISCLAIMER
+--------------------------------------------------------------------------------
+AGm communicates with remote Git repositories (including GitHub, GitLab,
+Bitbucket, and self-hosted servers) using the locally installed Git client
+and standard SSH / HTTPS protocols.
+
+AGm is an independent tool and is not affiliated with, endorsed by, or in
+any way associated with GitHub, Inc., GitLab Inc., Atlassian Pty Ltd.,
+Microsoft Corporation, or any other Git hosting provider.
+
+"GitHub", "GitLab", "Bitbucket", and "Git" are trademarks or registered
+trademarks of their respective owners.
+
+
+6. DISCLAIMER OF WARRANTY
+--------------------------------------------------------------------------------
+This software is provided  "AS IS"  without warranty of any kind, either
+express or implied, including but not limited to the implied warranties of
+merchantability, fitness for a particular purpose, and non-infringement.
+
+The author and Avarwand shall not be liable for any damages, including but
+not limited to direct, indirect, special, incidental, or consequential damages
+arising out of the use of, or inability to use, this software — including but
+not limited to any loss of data, repository corruption, or unintended Git
+operations — even if advised of the possibility of such damages.
+
+Use of this software in production repositories or critical environments is
+entirely at the user's own risk. Always maintain adequate backups of your
+repositories before performing batch operations.
+
+
+7. TERMINATION
+--------------------------------------------------------------------------------
+This license is effective until terminated. Your rights under this license
+will terminate automatically and without notice if you fail to comply with
+any of its terms.
+
+Upon termination, you must cease all use of the software and destroy all
+copies in your possession or control.
+
+
+================================================================================
+© 2026 Avarwand. All rights reserved.
+================================================================================
+
+Contact:  avarwand@yahoo.com
+GitHub:   https://github.com/avarwand/
