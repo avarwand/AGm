@@ -1,7 +1,7 @@
-# AGm — Avarwand Git Manager
+# AGm | Avarwand Git Manager
 
 A professional **graphical Git repository manager**, designed to manage
-multiple local Git repositories simultaneously — with batch operations,
+multiple local Git repositories simultaneously, with batch operations,
 live status monitoring, an interactive CLI, submodule management, and a
 fully configurable dark-themed interface.
 
@@ -12,11 +12,11 @@ fully configurable dark-themed interface.
 ### Profile Management
 - 📁 **Multiple Repository Profiles**: Add, edit, and remove any number of
   local Git repository paths as named profiles.
-- 📂 **Import Folders**: Select multiple folders at once — AGm automatically
+- 📂 **Import Folders**: Select multiple folders at once, AGm automatically
   detects valid Git repositories and imports them in a single step.
   Duplicate paths are detected and skipped automatically.
 - 🟢🔴 **Live Status Colours**: Each profile is automatically colour-coded
-  after every operation — green for clean repositories (nothing to commit),
+  after every operation, green for clean repositories (nothing to commit),
   dark red for repositories with untracked or modified files.
 - 🔍 **Search & Filter**: Type to filter profiles by name. Use the
   **✅ Synced** and **🔴 Untracked** checkboxes to instantly show only
@@ -32,7 +32,7 @@ fully configurable dark-themed interface.
 
 ### Git Operations
 All operations run **simultaneously** across all checked profiles in a
-background thread — the interface stays fully responsive at all times.
+background thread, the interface stays fully responsive at all times.
 
 - 📋 **Status** — `git status`
 - 📜 **Log** — `git log`
@@ -72,11 +72,11 @@ background thread — the interface stays fully responsive at all times.
 
 ### Output Log
 - 🎨 **Colour-coded output**:
-  - Gold — operation name header
+  - Gold, operation name header
   - Blue (`#89dcff`) — untracked file paths
   - Green (`#40c057`) — staged changes (committed to index)
   - Red (`#f38ba8`) — unstaged modifications and errors
-  - Orange — warnings
+  - Orange, warnings
 - 🔎 **Zoom**: Ctrl++ / Ctrl+- / Ctrl+wheel to resize log text.
 - ↕ **Line spacing**: Adjustable via slider in Settings.
 - 🔤 **Font**: Choose any installed font in Settings → Output Log.
@@ -143,7 +143,7 @@ An interactive terminal-style window for typing git commands manually.
 - **Operating System**: Windows 10 or later (recommended)
 - **Git**: Git must be installed and available on the system `PATH`.
   Download from [https://git-scm.com](https://git-scm.com)
-- No Python installation required — AGm ships as a standalone `.exe`.
+- No Python installation required, AGm ships as a standalone `.exe`.
 
 ---
 
@@ -172,7 +172,7 @@ Commit, etc.). Output appears live in the log below. The **Stop** button
 ### 5. Use the CLI Window
 Check exactly the repositories you want, then click **💻 CLI**. A tab opens
 for each selected repository. Type git commands directly and press Enter.
-Open additional repos by checking them and clicking CLI again — each gets
+Open additional repos by checking them and clicking CLI again, each gets
 its own tab.
 
 ### 6. Clone a Repository
@@ -182,7 +182,7 @@ add the result as a profile.
 
 ### 7. Manage Submodules
 Select a single profile and click **➕ Submodule Add** or **➖ Submodule
-Remove**. The Remove dialog lists all submodules with a search field — select
+Remove**. The Remove dialog lists all submodules with a search field, select
 one and confirm to run the full cleanup sequence automatically.
 
 ### 8. Adjust Appearance
@@ -243,10 +243,10 @@ terminal colours. All changes are saved to config and persist across sessions.
 
 ## Technical Notes
 
-- AGm runs `git` as an external process — it uses whatever Git version is
+- AGm runs `git` as an external process, it uses whatever Git version is
   installed on the system.
 - All git operations run in **background threads**; the GUI never freezes.
-- SSH authentication uses the `SSH_ASKPASS` mechanism — AGm never opens a
+- SSH authentication uses the `SSH_ASKPASS` mechanism, AGm never opens a
   terminal window for passphrase prompts.
 - The configuration file at `~/.agm/agmconf` is Base64-encoded JSON. It is
   **not encrypted**. Store the file in a secure location if it contains
