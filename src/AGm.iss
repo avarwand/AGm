@@ -1,12 +1,12 @@
 #define MyAppName "AGm"
-#define MyAppVersion "1.3"
+#define MyAppVersion "1.4"
 #define MyAppPublisher "Avarwand"
 #define MyAppURL "https://github.com/avarwand/AGm/releases/tag/agm"
-#define MyAppExeName "AGm 1.3 Portable.exe"
+#define MyAppExeName "AGm 1.4 Portable.exe"
 #define MyAppIcon "D:\Payam Avarwand\My Repos\GitHub\Word-Books\Code\Avarwand Software Production\29- AGm\Visual\AGm Logo.ico"
 #define MyVbsLauncher "AGm_Launcher.vbs"
 #define MyAppIconName "AGm Logo.ico"
-#define MyAppFileVersion "1.3.75.1"
+#define MyAppFileVersion "1.4.25.90"
 
 [Setup]
 AppId={{AGm.com.yahoo@Avar_Payam}
@@ -39,11 +39,11 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\AGm\installer\AGm 1.3 Portable\AGm 1.3 Portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\AGm\installer\AGm 1.4 Portable\AGm 1.4 Portable.exe"; DestDir: "{app}\lib"; Flags: ignoreversion
 Source: "{#MyAppIcon}"; DestDir: "{app}\lib\_internal"; Flags: ignoreversion
 
 ; Install _internal under the lib folder
-Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\AGm\installer\AGm 1.3 Portable\_internal\*"; DestDir: "{app}\lib\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "D:\Payam Avarwand\My Repos\GitHub\Avarwand\Software\AGm\installer\AGm 1.4 Portable\_internal\*"; DestDir: "{app}\lib\_internal"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 ; VBS launcher
@@ -110,6 +110,3 @@ begin
     end;
   end;
 end;
-
-
-
