@@ -6,15 +6,15 @@ It simplifies common Git tasks and provides an easy way to monitor, manage, and 
 
 ## Features
 
-* **Repository Profiles** — Manage multiple local Git repositories in one place.
-* **Git Operations** — Perform common operations such as status, pull, push, commit, fetch, stage, stash, and more.
-* **Batch Operations** — Run Git operations across multiple selected repositories.
-* **Repository Status** — Quickly see which repositories are synchronized or have changes.
-* **Interactive CLI** — Access Git commands through an integrated terminal interface.
-* **Repository Cloning** — Clone remote repositories directly from AGm.
-* **Submodule Management** — Add and remove Git submodules.
-* **Configuration** — Save and manage application settings and repository profiles.
-* **Modern Interface** — Clean, dark-themed, customizable graphical interface.
+* **Repository Profiles**: Manage multiple local Git repositories in one place.
+* **Git Operations**: Perform common operations such as status, pull, push, commit, fetch, stage, stash, and more.
+* **Batch Operations**: Run Git operations across multiple selected repositories.
+* **Repository Status**: Quickly see which repositories are synchronized or have changes.
+* **Interactive CLI**: Access Git commands through an integrated terminal interface.
+* **Repository Cloning**: Clone remote repositories directly from AGm.
+* **Submodule Management**: Add and remove Git submodules.
+* **Configuration**: Save and manage application settings and repository profiles.
+* **Modern Interface**: Clean, dark-themed, customizable graphical interface.
 
 ## System Requirements
 
@@ -49,10 +49,9 @@ For complete licensing terms, see [LICENSE.md](LICENSE.md).
 ## Contact
 
 **Avarwand**
-📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)
-🐙 https://github.com/avarwand
+📧 [avarwand@yahoo.com](mailto:avarwand@yahoo.com)<br>🐙 https://github.com/avarwand
 
 ---
 
-**Developed by Avarwand**
-© 2026 Avarwand. All rights reserved.
+
+**Developed by Avarwand**<br>© 2026 Avarwand. All rights reserved.
