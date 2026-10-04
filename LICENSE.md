@@ -4,7 +4,7 @@ Avarwand
 
 # Git Manager
 
-**End-User License Agreement (EULA) — Freeware**
+**End-User License Agreement (EULA) - Freeware**
 
 </div>
 
