@@ -15,7 +15,7 @@ It simplifies common Git tasks and provides an easy way to monitor, manage, and 
 * **Submodule Management**: Add and remove Git submodules.
 * **Configuration**: Save and manage application settings and repository profiles.
 * **Modern Interface**: Clean, dark-themed, customizable graphical interface.
-
+ 
 ## System Requirements
 
 * Windows 10 or later
