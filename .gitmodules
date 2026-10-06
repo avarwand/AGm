@@ -1,0 +1,3 @@
+[submodule "Wiki_AGm"]
+	path = Wiki_AGm
+	url = https://github.com/avarwand/AGm.wiki.git
